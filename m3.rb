@@ -2,9 +2,7 @@ def full_name(first, *midle,last)
   fullname = ''
   fullname+=first
   midle.each do |name|
-    fullname += " "
-    fullname += name
+    fullname.join(" ")
   end  
-  fullname += " "
-  fullname += last
+  fullname += last.join(" ")
 end
