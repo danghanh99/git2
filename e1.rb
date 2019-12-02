@@ -4,4 +4,3 @@ def iterate_colors(colors)
     arr.push(color)
   end
 end
-
