@@ -1,7 +1,4 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-
 require 'prime'
-
 n = gets.to_i
 
 pal_primes = Prime.lazy.select do |p|
