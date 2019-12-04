@@ -1,5 +1,4 @@
 def factorial
-    #_______________________
     yield
 end
 
@@ -10,7 +9,5 @@ factorial do
   value *= n
   n-=1
   end
-
     puts value
 end
-
