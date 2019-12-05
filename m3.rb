@@ -1,8 +1,5 @@
-def full_name(first, *midle,last)
-  fullname = ''
-  fullname+=first
-  midle.each do |name|
-    fullname.join(" ")
-  end  
-  fullname += last.join(" ")
+def full_name(first, *middle, last)
+  "#{first} #{middle.join(' ')} #{last}"
 end
+
+puts full_name("le","dang","hanh")
