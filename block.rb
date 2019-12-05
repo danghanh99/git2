@@ -9,5 +9,5 @@ factorial do
   value *= n
   n-=1
   end
-    puts value
+  puts value
 end
