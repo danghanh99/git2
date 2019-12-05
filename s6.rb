@@ -1,5 +1,5 @@
 def strike(text)
-return "<strike>#{text}</strike>"
+  "<strike>#{text}</strike>"
 end
 
 def mask_article(s1,texts)
