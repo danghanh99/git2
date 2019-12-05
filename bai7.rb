@@ -1,6 +1,4 @@
 loop do
-    coder.practice()
-    if coder.oh_one? == true
-        break
-    end
+  coder.practice()
+  break if coder.oh_one?
 end
