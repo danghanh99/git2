@@ -1,4 +1,1 @@
-if a>=b && a<=c
-        return true
-    else return false
-    end
+a.range?(b, c)
