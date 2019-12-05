@@ -4,5 +4,4 @@ def iter_hash(hash)
         puts key
         puts value
 end
-
 end
