@@ -1,8 +1,6 @@
-def factorial   
-  yield   
+def factorial(n)
+  1.upto(n).inject(1, :*)
 end
 
-n = gets.to_i   
-factorial do    
-  puts (1..n).inject(:*)   
-end
+n = gets.to_i
+puts factorial(n)
