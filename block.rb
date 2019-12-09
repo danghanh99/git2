@@ -1,16 +1,9 @@
-def factorial
-    #_______________________
-    yield
+def factorial(n)
+  result = (1..n).reduce(1) { |all, x| all *= x }
+  yield(result)
 end
 
 n = gets.to_i
-factorial do 
-  value =1
-  while ( n > 1)
-  value *= n
-  n-=1
-  end
-
-    puts value
+factorial(n) do |result| 
+  puts result
 end
-
