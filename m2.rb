@@ -1,4 +1,3 @@
-# Your code here
-def take(s, len)
- return s[len..-1]
-end
+def take(s, len = 1 )
+  s[len..-1]
+end 
