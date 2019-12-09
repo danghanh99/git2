@@ -1,9 +1,9 @@
-def factorial
-  yield
+def factorial(n)
+  result = (1..n).reduce(1) { |all, x| all *= x }
+  yield(result)
 end
 
 n = gets.to_i
-
-factorial do
-  puts (1..n).inject(1, :*)
+factorial(n) do |result| 
+  puts result
 end
